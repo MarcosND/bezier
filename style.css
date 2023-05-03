@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+body {
+    background: rgb(127, 126, 126);
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: Montserrat, sans-serif;
+}
+
+.header-div {
+    max-height: 60px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: #444444;
+}
+
+.header-div h3 {
+    color: #ffffff;
+    padding: 18px;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+}
+
+#canvas-container {
+    height: 100%;
+    width: 100%;
+}
+
+#canvas {
+    cursor: not-allowed;
+    height: 100% !important;
+}
+
+#eval-number {
+    width: 100%;
+    height: 50px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: inherit;
+}
+
+.description, .description-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button,
+input {
+    border: none;
+    cursor: pointer;
+    background-color: #242323;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #1357e0;
+}
+
+#finish-creation button {
+    background-color: #1357e0;
+}
+
+#create-button button:disabled {
+    background-color: #444444;
+    cursor: not-allowed;
+}
+
+.control-button {
+    width: 100%;
+    height: 50px;
+}
+
+input {
+    text-align: center;
+}
+
+input:focus {
+    background-color: #1357e0;
+}
+
+.external-box {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.buttons-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 3;
+    padding-top: 10px;
+}
+
+.control-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.canvas-div {
+    border-radius: 10px;
+    height: 100%;
+    width: 92%;
+    order: 2;
+}
+
+.button-container,
+.input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
